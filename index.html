@@ -1,18 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>@krishguptadev's website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krish Gupta - Enthusiastic Developer.</title>
+  <link rel="stylesheet" href="/styles/style.css">
 </head>
 
-<body>
-    <h1>Redirecting You To The Actual <a href="http://krishguptadev.github.io/odin-landing-page/">Website</a>...</h1>
-    <script>
-        window.location.replace("http://krishguptadev.github.io/odin-landing-page/");
-    </script>
+<body class="page">
+  <header class="hero">
+    <nav class="nav">
+      <h4 class="nav-brand">Krish Gupta</h4>
+      <div class="nav-menu">
+        <a href="https://github.com/krishguptadev?tab=repositories" class="nav-link">Project</a>
+        <a href="https://krishguptadev.hashnode.dev" class="nav-link">Blog</a>
+        <a href="mailto:krishguptadev@outlook.com" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    <main class="hero-columns">
+      <div class="hero-content">
+        <h2 class="hero-title">I am a student learning to code</h2>
+        <p class="hero-text">Have a project idea in mind? How about building it together?</p>
+        <a href="mailto:krishguptadev@outlook.com"><button class="hero-btn">Let's collaborate</button></a>
+      </div>
+      <div class="hero-media">
+        <img class="hero-img" src="./code.jpg" alt="">
+      </div>
+    </main>
+  </header>
+  <section id="projects" class="projects">
+    <h3 class="projects-section-title">Projects</h3>
+    <main class="projects-section">
+      <a href="https://github.com/krishguptadev/krishguptadev" class="project">
+        <img src="https://github.com/krishguptadev.png" alt="" class="project-img">
+        <p class="project-desc">GitHub Profile</p>
+      </a>
+      <a href="https://github.com/krishguptadev/odin-landing-page" class="project">
+        <img src="https://krishguptadev.github.io/odin-landing-page/theodinproject.svg" alt="" class="project-img">
+        <p class="project-desc">Odin Landing Page</p>
+      </a>
+      <a href="https://github.com/krishguptadev/odin-recipes" class="project">
+        <img src="https://krishguptadev.github.io/odin-landing-page/odinrecipe.jpg" alt="" class="project-img">
+        <p class="project-desc">Odin Recipes</p>
+      </a>
+      <a href="https://github.com/krishguptadev/boat-discord" class="project">
+        <img src="https://user-images.githubusercontent.com/91655303/136872674-edbe4bde-455c-45a5-94b6-7011fa17e802.png" alt="" class="project-img">
+        <p class="project-desc">Boat Discord Bot</p>
+      </a>
+    </main>
+  </section>
+  <section id="cta" class="cta">
+    <main class="cta-section">
+      <div class="cta-text">
+        <h3 class="cta-title">Let's work together?</h3>
+        <p class="cta-desc">I love collaborating on new projects!</p>
+      </div>
+      <a href="mailto:krishguptadev@outlook.com" class="cta-link"><button class="cta-btn">Let's collaborate</button></a>
+    </main>
+  </section>
+  <footer class="footer">Copyright ©️ Krish Gupta 2021 | MIT</footer>
 </body>
 
 </html>
