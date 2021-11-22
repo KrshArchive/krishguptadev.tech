@@ -1,0 +1,20 @@
+@import "normalize.css";
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
+
+@import "styles/util/colors.scss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+body {
+  background: $bg;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
